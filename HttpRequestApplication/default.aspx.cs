@@ -1,19 +1,12 @@
 ﻿using System;
 using System.Net;
 using System.Net.Http;
-using System.Net.Security;
-using System.Security.Cryptography.X509Certificates;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Web.UI;
 
 namespace HttpRequestApplication
 {
     public partial class Default : Page
     {
-
-        private static string _sslPolicyError = string.Empty;
-
 
         public async void ButtonTestUrl_Click(object sender, EventArgs e)
         {
